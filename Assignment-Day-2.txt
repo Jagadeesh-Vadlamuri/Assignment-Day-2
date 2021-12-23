@@ -1,0 +1,75 @@
+1. List 5 differences between Browser JS(console) vs Nodejs ?
+
+Ans:
+
+Browser JS:
+1. In the Browser, Majority of the time - the interaction happens with the DOM (Document Object Model) and other Web platform API's like Cookies
+2. In the Browser, we won't be having all the required API's like filesystem access etc..,
+3. In the Browser JS, you cannot predict the browsers that your visitors will use which would not be very convenient
+4. In the Browsers, Still - the ES modules standards are being implemented
+5. In the Browsers, we can use Babel to transform your code to ES-5 Compatible.
+
+Node JS:
+1. In Node JS, unlike browsers, we'll not be having any objects like document, window etc..,which are provided by browser
+2. In the Node JS, we can control the environment. Unless you are building an open source application that anyone can deploy anywhere, you know which version of Node.js you will run the application on
+3. Node.JS supports all the modern ES6/ES7/ES8/ES9 Javascript
+4. Node.JS uses the Common JS module system
+5. We use require() in the Node.JS and import() in the browser
+
+2. Watch and Summary 5 points ?
+
+Ans:
+
+Summary:
+1. Parse HTML --> It makes the 'incomplete' HTML code 'complete'. When it parses - it checks if there's any tags/closing tags, quotes missing in the code and corrects all of them
+2. Tokenizer --> It specifies each character name in the tags
+                 Eg : <div> </div> --> "<" defined to be open tag, ">" defined to be closed tag
+3. Conversion of PARSE tree into DOM tree --> Parse tree is a represenation of HTML one to one and it gets converted to DOM tree with all the elements interacting with JS
+4. Link & Style --> Tags like link, style can affect your HTML page and can make your web page a bit slower
+5. Script tag interupts the code --> Closing Script i.e,(/Script) should always be mentioned at the bottom of the entire HTML code to make sure that the code is not stopped at any given point of    time
+6. CSSParsing --> CSS prase will convert into CSSOM with all the style sheets, rules, selectors defined in a systematic way
+7. Immediate layout --> In situations where it needs to layout the entire document say, if we change the font styles, re-sizing the browsers etc.., it shifts down immediately
+8. Paint --> It would take all the information from the render tree and it does calls to actually paint something and it's like the canvas API where you're drawing the boxes, paint uses the process of taking all the information
+
+3. Is it necessary to write HTML, HEAD and BODY tags ?
+
+Ans:
+
+Read thoroughly
+
+4. Execute the below code and write your description in txt file ?
+
+Ans:
+
+a. typeof(1) --> "number" --> In JS, all the datatypes unlike in other languages  i.e.,int/float/double can together be called as a number
+
+b. typeof(1.1) --> "number" --> Usually, in other programming languages, this type of value can be refered to as "float" since it has decimal value but in JS, this would be a "number".
+
+c. typeof('1.1') --> "string" --> Any value including the numbers, special characters, Alphanumeric characters which are present inside the single quotes/double quotes/back ticks should be refered to a "String"
+
+d. typeof(true) --> "boolean" --> In JS, "true" & "false" should always be refered to "boolean" values since those values say about the whether the mentioned code is satisfying the condition or not.
+
+e. typeof(null) --> "object" --> In JS, this is actually a bug. it can't be fixed since it would disturb the existing code
+
+f. typeof(undefined) --> "undefined" --> In JS, undefined is a separate datatype. It meant that the variable is declared but no value is assigned to it.
+
+g. typeof([]) --> "object" --> An Object is a collectioin of multiple variables/properties. Inside [], we usually initilize multiple values in form of array
+
+h. typeof({}) --> "object" --> Similar to the above point, we usually assign multiple values inside an object and it would be considered as a JSON object inside the curly braces
+
+i. typeof(NaN) --> "number" --> 'NaN' usually means Not a Number. But it's datatype is actually a number, because - it is trying to find whether a particular value is actually a number or not 
+
+5. Read what is prototype ?
+
+Ans:
+
+Read thoroughly
+
+
+
+
+
+
+
+
+
